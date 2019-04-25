@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "es6",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmitOnError": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "outDir": "js/",
+    "lib": ["es2017", "dom"],
+  },
+  "include": [
+    "src/**/*",
+    "lib/ts-types/"
+  ],
+  "exclude": [
+    "src/worker/ImportLoader.ts"
+  ]
+}
